@@ -1,0 +1,89 @@
+.live-recognition-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.video-container {
+    position: relative;
+    margin: 20px 0;
+}
+
+.controls {
+    margin: 20px 0;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.start {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.stop {
+    background-color: #f44336;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.error-message {
+    color: #f44336;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #f44336;
+    border-radius: 5px;
+    background-color: #ffebee;
+}
+
+.results {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.results h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.results ul {
+    list-style: none;
+    padding: 0;
+}
+
+.results li {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.results li.match {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.results li.no_match {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.distance {
+    font-size: 0.9em;
+    opacity: 0.8;
+    margin-left: 10px;
+} 
